@@ -2,7 +2,10 @@ import java.util.Scanner;
 
 public class Calculator {
 
-    public static void main(String[] args) {
+
+
+    public static void main(String[] args) 
+{
 
     	double num1, num2;
         Scanner scanner = new Scanner(System.in);
@@ -40,6 +43,9 @@ public class Calculator {
                 System.out.printf("You have entered wrong operator");
                 return;
         }
+
+
+
 
         System.out.println(num1+" "+operator+" "+num2+": "+output);
     }
